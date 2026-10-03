@@ -1,19 +1,6 @@
-*.key
-*.pem
-*.secret
-id_rsa
-id_ed25519
-.env
-privada.*
-__pycache__/
-*.pyc
-*.pyo
-*.log
-tmp/
-temp/
-.DS_Store
-Thumbs.db
-*.zip
-*.tar.gz
-*.iso
-*.img
+# CLAVES Y SECRETOS — NUNCA SUBIR
+*.key *.pem *.secret id_rsa id_ed25519 .env privada.*
+# TEMPORALES
+__pycache__/ *.pyc *.log tmp/ temp/ .DS_Store Thumbs.db
+# GRANDES
+*.zip *.tar.gz *.iso *.img
